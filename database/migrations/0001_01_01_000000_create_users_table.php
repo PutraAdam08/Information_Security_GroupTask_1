@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('gender');
             $table->string(column: 'nationality');
             $table->string(column: 'religion');
-            $table->string(column: 'maritalStatus');
+            $table->boolean(column: 'maritalStatus');
             $table->string('idCardImage');
             
             //$table->timestamp('email_verified_at')->nullable();

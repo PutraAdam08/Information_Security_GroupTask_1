@@ -48,6 +48,6 @@ class UserController extends Controller
             'idCardImage'     =>  $image->hashName(),
         ]);
 
-        return new UserResource(true, 'Data Post Successfuly Added!', $user);
+        return redirect('/');
     }
 }
